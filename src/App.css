@@ -1,0 +1,140 @@
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.checkbox{
+    border: 1px solid gray;
+    height: 20px;
+    width: 20px;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px gold;
+}
+
+textarea{
+    display: inline-table;
+}
+
+h1{
+    margin:0px;
+    padding:0px;
+}
+.add-task {
+display: flex;
+margin-bottom: 10px;
+}
+  
+.add-task input {
+flex-grow: 1;
+padding: 5px;
+margin-right: 10px;
+}
+
+.add-task button {
+padding: 5
+}
+
+ul {
+list-style-type: none;
+}
+
+li span {
+    display: inline-block;
+    max-width: 230px; /* Adjust the max-width value as needed */
+    word-wrap: break-word;
+  }
+img{
+    border-radius: 30%;
+    border:4px white solid;
+    width: 250px;
+    margin-top: 30px;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    background-color: #FFFFD5;
+    color: rgb(0, 0, 0);
+    border: 1px solid black ;
+  }
+  
+  .input-container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .task-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 10px;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+  }
+  
+  button {
+    margin-left: 10px;
+  }
+
+/* CSS */
+.button-3 {
+  appearance: none;
+  background-color: #2aed61;
+  border: 1px solid rgba(27, 31, 35, .15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  margin: 10px;
+  font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 6px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.button-3:focus:not(:focus-visible):not(.focus-visible) {
+  box-shadow: none;
+  outline: none;
+}
+
+.button-3:hover {
+  background-color: #2c974b;
+}
+
+.button-3:focus {
+  box-shadow: rgba(46, 164, 79, .4) 0 0 0 3px;
+  outline: none;
+}
+
+.button-3:disabled {
+  background-color: #94d3a2;
+  border-color: rgba(27, 31, 35, .1);
+  color: rgba(255, 255, 255, .8);
+  cursor: default;
+}
+
+.button-3:active {
+  background-color: #298e46;
+  box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+}
